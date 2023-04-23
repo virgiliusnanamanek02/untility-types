@@ -1,0 +1,23 @@
+{
+  "name": "utility-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build" : "tsc -p ./",
+    "partial" : "node dist/partial.js",
+    "pick" : "node dist/pick.js",
+    "omit" : "node dist/omit.js",
+    "readonly" : "node dist/readonly.js",
+    "record" : "node dist/record.js",
+    "required" : "node dist/required.js",
+    "exclude" : "node dist/exclude.js",
+    "extract" : "node dist/extract.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
